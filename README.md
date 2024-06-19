@@ -20,7 +20,8 @@ Projeto FullStack desenvolvido como parte de um curso, aplicando conceitos apren
  - Modelo MVC ( model, View, Controller)
    
 ##### Aprendizados
-Durante o desenvolvimento deste projeto, adquiri habilidades em manipulação de dados com MongoDB, criação de APIs RESTful com Express.js, e a construção de interfaces dinâmicas com EJS e Webpack.
+Durante o desenvolvimento deste projeto, adquiri habilidades em manipulação de dados com MongoDB, criação de APIs RESTful com Express.js, e a construção de interfaces dinâmicas com EJS e Webpack, um pouco de Seguranca com Csurf, helmet. 
+Utilizacao de session para salvar dados em cookies. 
 
 
 Próximos Passos
