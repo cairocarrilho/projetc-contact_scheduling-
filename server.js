@@ -9,10 +9,10 @@ const app = express();
 // utilizando o Express
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname,'public'));
+app.use(express.static(path.resolve(__dirname, 'public')));
 
 // Configurando o EJS
-app.set('views',path.resolve(__dirname + 'src', 'views'));
+app.set('views',path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
 
 // conectando o banco de dados com o mongoose
